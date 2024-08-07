@@ -1,0 +1,45 @@
+.calc{
+    width:400px;
+    height: 600px;
+    background-color: gray;
+    align-self: center;
+    border-radius: 5px;
+}
+#Screen{
+    text-align: right;
+    width: 80%;
+    margin-left: 35px;
+    height: 50px;
+    margin-top: 22px;
+    pointer-events: none;
+    border-radius: 5px;
+    border: 3px solid rgb(120, 107, 107);
+    font-size: 30px;
+    font-style: bold;
+    background-image: repeating-linear-gradient(rgb(224, 224, 222),white);
+}
+
+.calc{
+    background-image: linear-gradient(to right,rgba(237, 11, 11, 0.664),rgb(246, 124, 87),rgb(193, 61, 31))
+}
+#buttonImage{
+    width: 30px;
+    height: 34px;
+    
+    
+}
+.btn{
+    width: 59px;
+    height: 55px;
+    margin-left: 30px;
+    margin-top: 38px;
+    background-image: radial-gradient(rgb(246, 242, 38),rgb(83, 97, 100),rgba(31, 31, 27, 0.537));
+    border-radius: 10px;
+    color: rgb(85, 4, 236);
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.btn:active{
+    color:white;
+}
